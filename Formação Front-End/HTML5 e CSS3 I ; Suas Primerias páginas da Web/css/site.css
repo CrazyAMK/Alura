@@ -1,0 +1,204 @@
+body{
+    font-family: "Crimson Text","Times New Roman";
+    background-color: #f2fffc;
+    line-height: 1.5;
+}
+
+main{
+    margin: 0 auto;
+    width: 840px;
+    padding: 0px 0;
+    padding-bottom: 80px;
+}
+
+main .titulo-pagina{
+    text-transform: uppercase;
+    font-size:60px;
+    background-color: #851944 ;
+    text-align: center;
+    color: #fafffa;
+    font-family: "Open Sans Condensed","Arial", "Open Sans", sans-serif;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid black;
+}
+
+.sub-titulo{
+    font-size:30px;
+    font-family: "Open Sans Condensed","Open Sans", "Arial", sans-serif;
+    clear: both;
+}
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.citacao-profissional{
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.navegacao-site{
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #f2fffc;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.navegacao-site a{
+    text-transform: lowercase;
+}
+
+.navegacao-site h1{
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #3C1D3D;
+    color: #f2fffc;
+    text-align: center;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+ul{
+    color: pink;
+}
+
+ul li a{
+    color:inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.social-rodape{
+    margin: 60px;
+}
+
+footer.rodapé{
+    background-color:black;
+    color: #f2fffc;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main div{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+article{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.icones-sociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: transparent;
+
+}
+
+.github{
+    background-image: url(./imagens/github.png)
+}
+
+.twitter{
+    background-image: url(./imagens/twitter.png)
+}
+
+
+.linkedin{
+    background-image: url(./imagens/linkedin.png)
+}
+
+.citacao1{
+    float:right;
+}
+
+.citacao2{
+    float:left;
+    margin-left: 0;
+}
+
+.navegacao-site, .foto-bio{
+    float:right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.navegacao-site{
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.foto-bio{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
